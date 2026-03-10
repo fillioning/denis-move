@@ -1,0 +1,16 @@
+{
+  "id": "serge",
+  "name": "Serge",
+  "version": "0.1.0",
+  "api_version": 2,
+  "description": "Monophonic West Coast synthesizer inspired by Serge Modular La Bestia III",
+  "author": "Vincent Fillion",
+  "abbrev": "SERGE",
+  "dsp": "serge.so",
+  "capabilities": {
+    "audio_out": true,
+    "midi_in": true,
+    "chainable": true,
+    "component_type": "sound_generator"
+  }
+}
