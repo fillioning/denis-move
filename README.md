@@ -1,6 +1,6 @@
 # Denis
 
-Monophonic West Coast synthesizer inspired by Serge Modular (La Bestia III), built for
+Monophonic West Coast synthesizer inspired by Serge Modular, built for
 [Ableton Move](https://www.ableton.com/move/) using the
 [Schwung](https://github.com/charlesvestal/schwung) framework.
 
