@@ -138,7 +138,7 @@ All matrix knobs are bipolar: -100% to +100%.
 
 ## Presets
 
-30 presets with Quebec joual names:
+30 presets:
 
 | # | Name | Character |
 |---|------|-----------|
