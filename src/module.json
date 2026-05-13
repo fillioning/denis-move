@@ -1,7 +1,7 @@
 {
   "id": "denis",
   "name": "Denis",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": 2,
   "description": "Monophonic West Coast synthesizer inspired by Serge Modular",
   "author": "Vincent Fillion",

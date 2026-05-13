@@ -22,5 +22,6 @@ docker cp "$CONTAINER_ID:/build/dist/$MODULE_ID/dsp.so" "$ROOT/dist/$MODULE_ID/"
 docker rm "$CONTAINER_ID" > /dev/null
 
 cp "$ROOT/src/module.json" "$ROOT/dist/$MODULE_ID/"
+[ -f "$ROOT/src/help.json" ] && cp "$ROOT/src/help.json" "$ROOT/dist/$MODULE_ID/"
 tar -czf "$ROOT/dist/$MODULE_ID-module.tar.gz" -C "$ROOT/dist" "$MODULE_ID/"
 echo "Built: dist/$MODULE_ID-module.tar.gz"
